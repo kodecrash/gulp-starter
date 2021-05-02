@@ -1,0 +1,29 @@
+ @font-face{font-family:'GillSansInfant'; src:url(../fonts/gilsbbd.ttf)}
+ @font-face {
+    font-family: 'McLarenRegular';
+    src: url('../fonts/font/mclarenregular-webfont.eot');
+    src: url('../fonts/font/mclarenregular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/font/mclarenregular-webfont.woff') format('woff'),
+         url('../fonts/font/mclarenregular-webfont.ttf') format('truetype'),
+         url('../fonts/font/mclarenregular-webfont.svg#mclarenregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+ @font-face{font-family:'FontAwesome'; src:url(../fonts/fontspringicons-webfont.woff)}
+
+.keypadHolder{font-family:'mclarenregular'; font-weight:bold; /*background:#93f84a;*/ background:#C9EC8C;z-index: 1000; border-spacing: 5px; border-radius:5px;left: 0px;top: 0px;pointer-events: all;}
+.vkBtn{vertical-align: middle;
+font: 24px 'McLarenRegular';
+text-align: center;
+display: table-cell;
+background: #8Ac800;
+border-radius: 3px;
+opacity: 1;}
+.vkBtn:active{background:#C9EC8C}
+.vkBtnBS{vertical-align:middle; width:53px; text-align:center; display:table-cell; background:#8Ac800; border-radius:3px; font: bold 18px 'McLarenRegular';}
+.NumPadClose{z-index: 10000;}
+/*.vkBtnBS{vertical-align:middle; width:30px; height: 24px;text-align:center; display:table-cell; background: #F6F6F6; font-family:GillSansInfant; }*/
+
+.vkBtnEmp{vertical-align:middle; text-align:center; display:table-cell; background:transparent;}
+/*.vkBtnCls { text-align:center; font-size: 14px; width: 20px; height: 20px; background:#000; border:1px solid #ccc; border-radius:20px; color: #fff; }*/
+.vkBtnCls { text-align:center; font-size: 14px; width: 30px; height: 30px; background:url(../images/close_btn.png) no-repeat; cursor: pointer;}
